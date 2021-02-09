@@ -18,9 +18,13 @@ or specify the number of user objects to create by default 3, use below command 
 
 ```python manage.py populate_dummy_data --users 10 ```
 
-# Demo url 
 
+# Demo url 
+ (localhost)
  - http://127.0.0.1:8000/api/v1/users_activities
+
+ (live)
+ - http://139.59.5.26/api/v1/users_activities
 
 
 # helper lib
