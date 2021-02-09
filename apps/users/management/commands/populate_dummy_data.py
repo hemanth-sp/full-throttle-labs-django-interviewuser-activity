@@ -1,12 +1,13 @@
-from datetime import timedelta, datetime
-from django.utils import timezone
 from apps.activities.models import ActivityPeriod
 from apps.users.models import User, id_generator
+from datetime import timedelta, datetime
 from django.core.management.base import BaseCommand
+from django.utils import timezone
 import factory  
 import factory.django
 import faker
 import pytz
+
 
 class UserFactory(factory.django.DjangoModelFactory): 
     """ fake user factory """ 
