@@ -18,6 +18,6 @@ or specify the number of user objects to create by default 3 for example 10
 
 ```python manage.py populate_dummy_data --users 10 ```
 
-# demo url 
+# Demo url 
 
  - http://127.0.0.1:8000/api/v1/users_activities
