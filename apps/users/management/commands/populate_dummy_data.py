@@ -28,7 +28,7 @@ class Command(BaseCommand):
 
     def add_arguments(self, parser):
         parser.add_argument('--users',
-            default=5,
+            default=3,
             type=int,
             help='The number of fake users to create')
 

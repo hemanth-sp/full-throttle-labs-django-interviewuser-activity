@@ -3,6 +3,6 @@ bash.exe.stackdump
 .vscode/
 venv/
 vir_envv/
-migrations/
+# migrations/
 log/
-db.sqlite3
+# db.sqlite3
