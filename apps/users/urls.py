@@ -5,5 +5,5 @@ from django.urls import path
 
 
 urlpatterns = [
-    path('v1/users_activties', UsersActivitiesView.as_view()),
+    path('v1/users_activities', UsersActivitiesView.as_view()),
 ]
