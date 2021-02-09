@@ -7,7 +7,7 @@
 2. ```cd user_activity```
 3. ```python3.7 -m venv venv```
 4. ```source venv/bin/activate ```
-5. ```pip3 install requirements.txt```
+5. ```pip3 install -r requirements.txt```
 6. ```python3 manage.py migrate```
 7. ```python3 manage.py runserver```
 
