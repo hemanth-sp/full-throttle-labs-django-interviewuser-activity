@@ -4,11 +4,8 @@ from .models import User
 
 
 class UserSerializer(serializers.ModelSerializer):
-    activity_periods = serializers.SerializerMethodField()
+    activity_periods = ActivityPeriodSerializer(many=True)
 
     class Meta:
         model = User
         fields = ('id', 'real_name', 'tz', 'activity_periods')
-
-    def get_activity_periods(self, user_obj):
-        return ActivityPeriodSerializer(user_obj.activity_periods.all(), many=True).data

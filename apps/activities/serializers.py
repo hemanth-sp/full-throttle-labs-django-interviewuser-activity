@@ -12,9 +12,9 @@ class ActivityPeriodSerializer(serializers.ModelSerializer):
         fields = ('start_time', 'end_time')
 
     def get_start_time(self, obj):
-        format = '%Y-%m-%d %H:%M %p'
+        format = '%b %d %Y %H:%M %p'
         return obj.start_time.strftime(format)
     
     def get_end_time(self, obj):
-        format = '%Y-%m-%d %H:%M %p'
+        format = '%b %d %Y %H:%M %p'
         return obj.end_time.strftime(format)
