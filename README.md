@@ -14,7 +14,7 @@
 # Populate dummy data using management command
 ```python manage.py populate_dummy_data```
 
-or specify the number of user objects to create by default 3, use below command to add more data for example 10
+or specify the number of user objects to create by default 3, use below command to add more data for example 10 user objects
 
 ```python manage.py populate_dummy_data --users 10 ```
 
