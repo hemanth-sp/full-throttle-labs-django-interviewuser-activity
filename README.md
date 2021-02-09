@@ -21,3 +21,7 @@ or specify the number of user objects to create by default 3, use below command 
 # Demo url 
 
  - http://127.0.0.1:8000/api/v1/users_activities
+
+
+# helper lib
+ - factory-boy used to populate dummy or fake data in management command
