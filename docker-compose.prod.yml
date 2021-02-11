@@ -2,8 +2,9 @@ version: '3.3'
 
 services:
   web:
-    build: .
-    dockerfile: Dockerfile.prod
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
     command: gunicorn --workers 3 --bind unix:/home/app/web/so.sock user_activity.wsgi
     volumes:
       - static_volume:/home/app/web/staticfiles
