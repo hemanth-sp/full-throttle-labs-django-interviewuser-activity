@@ -6,7 +6,7 @@ TIMEZONES = tuple(zip(pytz.all_timezones, pytz.all_timezones))
 
 
 def id_generator(size=9, chars=string.ascii_uppercase + string.digits):
-    """generate random number"""
+    """generate random number """
     return ''.join(random.choice(chars) for _ in range(size))
 
 
