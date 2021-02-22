@@ -16,4 +16,4 @@ jobs:
     - name: Check running containers
       run: docker ps -a
     - name: test
-      run: docker-compose exec web python manage.py test
+      run: docker-compose exec -t web python manage.py test
