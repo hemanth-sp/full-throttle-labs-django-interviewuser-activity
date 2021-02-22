@@ -1,6 +1,10 @@
 # Requirements
  - Python (3.5, 3.6, 3.7, 3.8, 3.9)
  - Django (3.1)
+# using docker
+```docker-compose up -d --build```
+
+ # Or
 
 # Installation
 1. ```git clone https://github.com/hemanth-sp/user_activity.git```
